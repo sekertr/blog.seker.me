@@ -7,8 +7,6 @@ tags: ["Hoşgeldiniz","İlk Blog"]
 
 ---
 
-# Hoşgeldiniz
-
 Merhaba dostlar, ben yeni kurulan [blog.seker.me](https://blog.seker.me/) blogunun ilk yazısı ile karşınızdayım. Bu platformda SCADA, RTU, PLC, Akıllı Ev ve teknolojik gelişmeler hakkında yazılar paylaşacağım.
 
 Bu platformda yayınlayacağım içerikler ile SCADA ve otomasyon dünyasındaki son gelişmeleri sizlerle paylaşmayı, sektördeki tecrübelerimi aktarmayı ve karşılaştığım teknik problemlerin çözümlerini anlatmayı hedefliyorum. Aynı zamanda etkileşimli bir iletişim kurmayı ve sizlerden geri bildirimler almayı da arzuluyorum.
