@@ -26,7 +26,7 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 3. **Nameserver Değişikliği:**  
   Cloudflare, domain adresinizin nameserver'larını kendi sunucularına taşımanızı isteyecektir. Domain sağlayıcınıza giriş yaparak bu değişikliği yapın. Değişiklik yaklaşık 30 dakika sürebilir. İşlem tamamlandığında Cloudflare size bir bildirim gönderecektir.
 4. **Home Assistant Yapılandırması:**  
-  Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin, ardından geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın:
+  Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin, ardından geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın:   
 
   ```yaml
   http:
