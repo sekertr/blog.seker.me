@@ -9,11 +9,12 @@ tags: ["Akıllı Ev","Home Assistant","Cloudflare","Uzaktan Bağlanma","Remote"]
 Kendi özel domain adresinizi kullanarak, Home Assistant’a Cloudflare Tunnel bağlantısı üzerinden bağlanabilir ve ağınızdaki tüm cihazlara uzaktan erişim sağlayabilirsiniz.  
 ## Cloudflare Tunnel nedir?  
 Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak için kullanılan güçlü bir araçtır. Geleneksel port yönlendirme veya VPN yapılandırmalarına gerek kalmadan, internet üzerindeki herhangi bir cihazdan Home Assistant gibi yerel ağınızdaki servislere erişmenizi sağlar. Cloudflare’in dünya çapındaki ağ altyapısı üzerinde çalışan bu çözüm, yalnızca istenilen servise erişim sağlarken, dış tehditlere karşı güvenliğinizi de artırır. Hem yeni başlayanlar hem de deneyimli kullanıcılar için Cloudflare Tunnel, uzaktan erişim sorunlarını çözmek için ideal bir seçenektir.  
+* * *
 ## Gereksinimler  
 - Özel bir domain adresi  
 - Cloudflare hesabı  
 - Home Asistant için cloudflared eklentisi  
-
+* * *
 ## Uzaktan Erişim İçin Yapılandırma Adımları:  
 
 1. **Domain adresi edinme:**  
