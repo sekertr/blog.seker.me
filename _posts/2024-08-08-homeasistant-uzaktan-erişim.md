@@ -69,7 +69,7 @@ Home Assistant'a uzaktan erişim sağlamak için Cloudflare Tünel dışında da
 4. **Modem çözümleri**:  
     Bazı modemler, kendi içinde yerleşik bir bulut hizmeti barındırabilir. Bu DNS özelliğini kullanarak, uzaktan Home Assistant'a güvenli bir şekilde erişim sağlayabilirsiniz.
 
-5. **Cloudflare Tunnel**
+5. [**Cloudflare Tunnel**](#cloudflare-tunnel-nedir)
 
 * * * 
 ## Kıyaslama
