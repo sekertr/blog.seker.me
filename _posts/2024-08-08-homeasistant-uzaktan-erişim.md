@@ -28,12 +28,13 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 4. **Home Assistant Yapılandırması:**  
   Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin, ardından geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın:
 
- ```yaml
+```yaml
 http:
   use_x_forwarded_for: true
   trusted_proxies:
     - 172.30.33.0/24
- ```
+```
+{:start="5"}
 5. **Cloudflared Eklentisini Yükleme:**  
   Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
   `https://github.com/brenner-tobias/ha-addons`  
