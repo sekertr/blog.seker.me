@@ -61,4 +61,4 @@ Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.
 7. **Tünel Kurulumu:**  
 Eklentiyi başlatın[^1] ve günlük kısmında belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 * * *
-[^1]: <span style="font-size:0.5em;">Bu adımları uygulamadan önce, Cloudflare hesabınızda nameserverların aktif olduğundan ve e-posta doğrulaması yaptığınızdan emin olunuz.</span>
+<span style="font-size:0.7em;">[^1]: Bu adımları uygulamadan önce, Cloudflare hesabınızda nameserverların aktif olduğundan ve e-posta doğrulaması yaptığınızdan emin olunuz.</span>
