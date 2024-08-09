@@ -56,14 +56,30 @@ http:
     Eklentiyi başlatın ve ardından günlük sekmesine gidin. Kayıtları bir web adresi görene kadar yenileyin. Belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 
 * * *
-## Cloudflare Tünel'den Başka Bir Yöntem Var Mı?
-Bu yöntem haricinde Home Asisstant'a uzaktan bağlanmanız da mümkün.  
+## Başka Uzaktan Erişim Türleri Var Mı?
+Home Assistant'a uzaktan erişim sağlamak için Cloudflare Tünel dışında da birkaç yöntem bulunmaktadır:
+ 
 ### Home Asistant Uzaktan Erişim Türleri:
-1. **Home Assistant Cloud**:
-    Some text will come here..
-2. **Sabit IP**:
-    Some text will be here...
-3. **DNS Servisleri**:
-    Some text will be here
-4. **Modem çözümleri**:
-    Some text will be here...
+1. **Home Assistant Cloud**:  
+    Home Assistant kurucusu [Nabu Casa](https://www.nabucasa.com/) firması tarafından sağlanan ücretli bu hizmet, kullanıcıların Home Assistant'a kolayca ve güvenli bir şekilde uzaktan erişim sağlamasını mümkün kılar. Bu yöntem, kullanıcıların karmaşık ağ yapılandırmalarına girmeden hızlıca bağlantı kurmalarını sağlar. Ayrıca, Google Assistant ve Amazon Alexa sesli komut entegrasyonlarını da destekler.
+2. **Sabit IP**:  
+    Evinizdeki internet hizmet sağlayıcınızdan belli bir ücret karşılığında sabit bir IP adresi talep ederek, Home Assistant'a doğrudan erişim sağlayabilirsiniz. Sabit IP kullanarak Home Assistant'ı internete açabilir, modeminizden 8123 portunu Home Asistant'ın IP adresine yönlendirme yaparak dışarıdan erişimi mümkün kılabilirsiniz. Ancak, bu yöntemde güvenlik önlemlerini almak çok önemlidir; VPN veya güçlü şifreleme kullanımı önerilir.
+3. **DNS Servisleri**:  
+    Dinamik DNS (DDNS) servisleri, sabit bir IP adresine sahip olmayan kullanıcılar için iyi bir alternatiftir. Bu servisler, evinizdeki cihazlara atanmış dinamik IP adresini sürekli güncelleyerek, sabit bir alan adı üzerinden erişim sağlar. DuckDNS gibi hizmetler, Home Assistant'a uzaktan erişim için kullanılabilir. Bu servislerin çalışması için IP adresinizin CGNAT Havuzunda olmaması lazım.
+4. **Modem çözümleri**:  
+    Bazı modemler, kendi içinde yerleşik bir bulut hizmeti barındırabilir. Bu DNS özelliğini kullanarak, uzaktan Home Assistant'a güvenli bir şekilde erişim sağlayabilirsiniz.
+
+5. **Cloudflare Tunnel**
+
+* * * 
+## Kıyaslama
+
+| Yöntem                | Kolaylık   | Güvenlik | Diğer                                     |
+| :-------------------- | :--------: | :------: | --------------------------------------- : |
+| Cloudflare Tunnel     | Zor        | Yüksek   | Sadece domain maliyeti                    |
+| Home Assistant Cloud  | Çok Kolay  | Yüksek   | Aylık yüksek maliyet                      |
+| Sabit IP              | Kolay      | Düşük    | Aylık maliyet                             |
+| DNS Servisleri        | Orta       | Orta     | Maliyetsiz fakat CGNAT havuzunda çalışmaz |
+| Modem Çözümleri       | Kolay      | Yüksek   | Tek seferlik donanım maliyeti             |
+
+* * * 
