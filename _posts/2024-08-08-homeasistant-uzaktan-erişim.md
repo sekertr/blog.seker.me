@@ -28,12 +28,12 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 4. **Home Assistant Yapılandırması:**  
   Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin:
 
-```yaml
-http:
-use_x_forwarded_for: true
-trusted_proxies:
-- 172.30.33.0/24
-```
+  ```yaml
+  http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+  - 172.30.33.0/24
+  ```
   Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.
 5. **Cloudflared Eklentisini Yükleme:**  
 Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
@@ -59,6 +59,5 @@ Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.
 ```
   Cloudflare Tunnel Name'e bir ad veriniz.
 7. **Tünel Kurulumu:**  
-Eklentiyi başlatın[^1] ve günlük kısmında belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
+Eklentiyi başlatın ve günlük kısmında belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 * * *
-<span style="font-size:0.7em;">[^1]: Bu adımları uygulamadan önce, Cloudflare hesabınızda nameserverların aktif olduğundan ve e-posta doğrulaması yaptığınızdan emin olunuz.</span>
