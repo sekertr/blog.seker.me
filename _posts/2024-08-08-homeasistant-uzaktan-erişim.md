@@ -34,11 +34,11 @@ http:
   trusted_proxies:
     - 172.30.33.0/24
 ```
-  Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.  
-5\. **Cloudflared Eklentisini Yükleme:**   
-  Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
+&nbsp;&nbsp;Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.  
+&nbsp;5\. **Cloudflared Eklentisini Yükleme:**   
+&nbsp;&nbsp;Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
   `https://github.com/brenner-tobias/ha-addons`  
-  Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.  
+&nbsp;&nbsp;Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.  
 6\. **Eklenti Yapılandırması:**  
   Cloudflare hesabınıza girdiğiniz domain adını "External Home Assistant Hostname" kısmına girin. Ağdaki diğer cihazlara da erişmek istiyorsanız "Additional Hosts" kısmına aşağıdaki bilgileri girin ve Cloudflare Tunnel Name’e bir ad veriniz:  
 
