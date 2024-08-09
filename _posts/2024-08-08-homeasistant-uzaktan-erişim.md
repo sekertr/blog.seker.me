@@ -26,7 +26,7 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 3. **Nameserver Değişikliği:**  
   Cloudflare, domain adresinizin nameserver'larını kendi sunucularına taşımanızı isteyecektir. Domain sağlayıcınıza giriş yaparak bu değişikliği yapın. Değişiklik yaklaşık 30 dakika sürebilir. İşlem tamamlandığında Cloudflare size bir bildirim gönderecektir.
 4. **Home Assistant Yapılandırması:**  
-  Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin, ardından geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın:
+  Home Assistant'a girin ve configuration.yaml dosyasına aşağıdaki satırları ekleyin:
 
 ```yaml
 http:
@@ -34,12 +34,12 @@ http:
   trusted_proxies:
     - 172.30.33.0/24
 ```
-{:start="5"}
-5. **Cloudflared Eklentisini Yükleme:**  
+  Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.
+5\. **Cloudflared Eklentisini Yükleme:**  
   Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
   `https://github.com/brenner-tobias/ha-addons`  
   Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.
-6. **Eklenti Yapılandırması:**
+6\. **Eklenti Yapılandırması:**
   Cloudflare hesabınıza girdiğiniz domain adını "External Home Assistant Hostname" kısmına girin. Ağdaki diğer cihazlara da erişmek istiyorsanız "Additional Hosts" kısmına aşağıdaki bilgileri girin ve Cloudflare Tunnel Name’e bir ad veriniz:  
 
 ```yaml
@@ -57,6 +57,6 @@ http:
 - hostname: nginx.domainadresiniz.com
   service: http://192.168.0.200:81
 ```   
-7. **Tünel Kurulumu:**  
+7\. **Tünel Kurulumu:**  
 Eklentiyi başlatın ve günlük kısmında belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 * * *
