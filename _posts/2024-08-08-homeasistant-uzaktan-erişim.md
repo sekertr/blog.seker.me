@@ -13,6 +13,7 @@ tags: ["Akıllı Ev","Home Assistant","Cloudflare","Uzaktan Bağlanma","Remote"]
 2. Sol menüden "Add-on Store" seçeneğine tıklayın.
 3. Sağ üst köşedeki üç nokta menüsüne tıklayın ve "Repositories" seçeneğini seçin.
 4. Açılan pencerede şu adresi ekleyin:
+
 ```https://github.com/brenner-tobias/addon-cloudflared```
 
 5. "Add" butonuna tıklayarak repository'yi ekleyin.
@@ -25,5 +26,5 @@ tags: ["Akıllı Ev","Home Assistant","Cloudflare","Uzaktan Bağlanma","Remote"]
 12. Konfigürasyonu kaydedin.
 13. Eklentinin ana sayfasına dönün ve "Start" butonuna tıklayarak eklentiyi başlatın.
 14. Eklentinin loglarını kontrol ederek başarılı bir şekilde çalıştığından emin olun.
-
+------------------------------------------------------------------------------------------
 [^1]: Bu adımları uygulamadan önce, Cloudflare hesabınızda bir tunnel oluşturmuş ve gerekli token'ı almış olmanız gerekmektedir.
