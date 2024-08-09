@@ -33,7 +33,7 @@ http:
 use_x_forwarded_for: true
 trusted_proxies:
 - 172.30.33.0/24
-```  
+```
   Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.
 5. **Cloudflared Eklentisini Yükleme:**  
 Ayarlar > Eklentiler > Eklenti Mağazası yolunu izleyin. Sağ üstteki üç noktaya tıklayıp "Depolar"ı seçin. Aşağıdaki adresi ekleyin:  
@@ -61,4 +61,4 @@ Sayfayı yenileyin ve Cloudflared eklentisini yükleyin.
 7. **Tünel Kurulumu:**  
 Eklentiyi başlatın[^1] ve günlük kısmında belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 * * *
-[^1]: Bu adımları uygulamadan önce, Cloudflare hesabınızda nameserverların aktif olduğundan ve e-posta doğrulaması yaptığınızdan emin olunuz.
+[^1]: <span style="font-size:0.5em;">Bu adımları uygulamadan önce, Cloudflare hesabınızda nameserverların aktif olduğundan ve e-posta doğrulaması yaptığınızdan emin olunuz.</span>
