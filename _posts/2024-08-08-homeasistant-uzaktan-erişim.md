@@ -53,4 +53,5 @@ http:
     Cloudflare Tunnel Name’e bir ad veriniz ve ayarları kaydediniz.
 7. **Eklentiyi Başlatma ve Günlük Kısmından Web Adresini Alma:**  
     Eklentiyi başlatın ve ardından günlük sekmesine gidin. Kayıtları bir web adresi görene kadar yenileyin. Belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
-***
+
+* * *
