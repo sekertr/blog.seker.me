@@ -7,4 +7,23 @@ tags: ["Akıllı Ev","Home Assistant","Cloudflare","Uzaktan Bağlanma","Remote"]
 
 ---
 
-Güncellenecek.
+#Home Assistant'a Cloudflared Eklentisi Yükleme Adımları
+
+- Home Assistant'ınızda Supervisor bölümüne gidin.
+- Sol menüden "Add-on Store" seçeneğine tıklayın.
+- Sağ üst köşedeki üç nokta menüsüne tıklayın ve "Repositories" seçeneğini seçin.
+- Açılan pencerede şu adresi ekleyin:
+'https://github.com/brenner-tobias/addon-cloudflared'
+
+- "Add" butonuna tıklayarak repository'yi ekleyin.
+- Add-on Store'a geri dönün ve sayfayı yenileyin.
+- Yeni eklenen repository'den "Cloudflared" eklentisini bulun.
+- Cloudflared eklentisine tıklayın ve "Install" butonuna basın.
+- Yükleme tamamlandıktan sonra, eklentinin konfigürasyon sayfasına gidin.
+- Cloudflare hesabınızdan aldığınız tunnel token'ı ilgili alana girin.
+- Diğer ayarları ihtiyacınıza göre yapılandırın.
+- Konfigürasyonu kaydedin.
+- Eklentinin ana sayfasına dönün ve "Start" butonuna tıklayarak eklentiyi başlatın.
+- Eklentinin loglarını kontrol ederek başarılı bir şekilde çalıştığından emin olun.
+
+Not: Bu adımları uygulamadan önce, Cloudflare hesabınızda bir tunnel oluşturmuş ve gerekli token'ı almış olmanız gerekmektedir.
