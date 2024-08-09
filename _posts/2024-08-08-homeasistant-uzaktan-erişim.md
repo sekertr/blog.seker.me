@@ -18,7 +18,7 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 * * *
 ## Uzaktan Erişim İçin Yapılandırma Adımları:  
 
-1. **Domain adresi edinme:**  
+1. ###**Domain adresi edinme:**  
     İlk olarak bir domain adresi edinin. Örnek olarak "domainadresiniz.com" kullanacağız.
 2. **Cloudflare Hesabı Oluşturma:**  
     [Cloudflare](https://www.cloudflare.com/)'den ücretsiz bir hesap açın ve e-posta doğrulamasını gerçekleştirin. Hesap açtıktan sonra web sitesi ekle diyerek domain adresinizi girin ve ücretsiz planı seçin.
