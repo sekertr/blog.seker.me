@@ -28,8 +28,7 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
     ```yaml
 http:
   use_x_forwarded_for: true
-  trusted_proxies:
-    - 172.30.33.0/24
+  trusted_proxies: 172.30.33.0/24
     ```
     Geliştirici araçlarına gidip yapılandırmayı kontrol edin. Hata yoksa, Home Assistant'ı yeniden başlatın.
 5. **Cloudflared Eklentisini Yükleme:**  
