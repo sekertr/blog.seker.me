@@ -21,14 +21,14 @@ Cloudflare Tunnel, güvenli ve kolay bir şekilde uzaktan erişim sağlamak içi
 
 1. **Domain Adresi Edinme:**  
   İlk olarak bir domain adresi edinin. Örnek olarak "domainadresiniz.com" kullanacağız.
-2. **Cloudflare Hesabı Oluşturma:**
+2. **Cloudflare Hesabı Oluşturma:**  
   [Cloudflare](https://www.cloudflare.com/)'den ücretsiz bir hesap açın ve e-posta doğrulamasını gerçekleştirin. Hesap açtıktan sonra web sitesi ekle diyerek domain adresinizi girin ve ücretsiz planı seçin.
-3. **Nameserver Değişikliği:**
+3. **Nameserver Değişikliği:**  
   Cloudflare, domain adresinizin nameserver'larını kendi sunucularına taşımanızı isteyecektir. Domain sağlayıcınıza giriş yaparak bu değişikliği yapın. Değişiklik yaklaşık 30 dakika sürebilir. İşlem tamamlandığında Cloudflare size bir bildirim gönderecektir.
-4. **Home Assistant Yapılandırması**
+4. **Home Assistant Yapılandırması**  
   Home Assistant'a girin ve **configuration.yaml** dosyasına aşağıdaki satırları ekleyin:
 
-```bash
+```yaml
 http:
 use_x_forwarded_for: true
 trusted_proxies:
