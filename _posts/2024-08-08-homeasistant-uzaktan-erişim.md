@@ -13,8 +13,9 @@ tags: ["Akıllı Ev","Home Assistant","Cloudflare","Uzaktan Bağlanma","Remote"]
 - Sol menüden "Add-on Store" seçeneğine tıklayın.
 - Sağ üst köşedeki üç nokta menüsüne tıklayın ve "Repositories" seçeneğini seçin.
 - Açılan pencerede şu adresi ekleyin:
-##
-        ```https://github.com/brenner-tobias/addon-cloudflared```
+```bash
+https://github.com/brenner-tobias/addon-cloudflared
+```
 
 - "Add" butonuna tıklayarak repository'yi ekleyin.
 - Add-on Store'a geri dönün ve sayfayı yenileyin.
