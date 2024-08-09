@@ -56,3 +56,14 @@ http:
     Eklentiyi başlatın ve ardından günlük sekmesine gidin. Kayıtları bir web adresi görene kadar yenileyin. Belirtilen web adresine giderek onay verin. Tünel yaklaşık 1 dakika içinde kurulacaktır. Kurulum tamamlandıktan sonra, belirttiğiniz adreslerden herhangi bir ağdan bağlanabilirsiniz.
 
 * * *
+## Cloudflare Tünel'den Başka Bir Yöntem Var Mı?
+Bu yöntem haricinde Home Asisstant'a uzaktan bağlanmanız da mümkün.  
+### Home Asistant Uzaktan Erişim Türleri:
+1. **Home Assistant Cloud**:
+    Some text will come here..
+2. **Sabit IP**:
+    Some text will be here...
+3. **DNS Servisleri**:
+    Some text will be here
+4. **Modem çözümleri**:
+    Some text will be here...
