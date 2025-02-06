@@ -4,7 +4,7 @@ date: 2025-02-06 13:37:00 +0300
 categories: [Yazılım, IDE]
 tags: [cursor, ide, yapay-zeka, programlama]
 image:
-  path: https://raw.githubusercontent.com/getcursor/cursor/main/docs/images/cursor_screenshot.png
+  path: https://cursor.sh/brand/cursor-og.png
   alt: Cursor IDE Arayüzü
 ---
 
