@@ -4,7 +4,7 @@ date: 2025-02-06 13:37:00 +0300
 categories: [Yazılım, IDE]
 tags: [cursor, ide, yapay-zeka, programlama]
 image:
-  path: https://cursor.sh/brand/cursor-og.png
+  path: https://brianchristner.io/content/images/2024/09/Cursor-AI.png
   alt: Cursor IDE Arayüzü
 ---
 
