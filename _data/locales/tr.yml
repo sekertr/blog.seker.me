@@ -48,6 +48,14 @@ about: "Hakkında"
 contact: "İletişim"
 subscribe: "Abone Ol"
 
+# Sidebar menü
+sidebar:
+  home: "ANA SAYFA"
+  categories: "KATEGORİLER"
+  tags: "ETİKETLER"
+  archives: "ARŞİV"
+  about: "HAKKINDA"
+
 # Sayfa Altı
 powered: "Altyapı"
 theme: "Tema"
