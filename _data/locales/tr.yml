@@ -1,0 +1,76 @@
+# Türkçe çeviriler
+# © 2024 Tevfik Fikret Şeker
+# -----------------
+
+panel:
+  lastmod: "Son Güncelleme"
+  trending_tags: "Popüler Etiketler"
+  toc: "İçindekiler"
+
+post:
+  written_by: "Yazar"
+  posted: "Yayınlandı"
+  updated: "Güncellendi"
+  words: "kelime"
+  pageview_measure: "görüntülenme"
+  read_time:
+    unit: "dakika"
+    prompt: "okuma"
+  relate_posts: "Benzer Yazılar"
+  share: "Paylaş"
+  button:
+    next: "Sonraki"
+    previous: "Önceki"
+    copy_code:
+      succeed: "Kopyalandı!"
+    share_link:
+      title: "Bağlantıyı kopyala"
+      succeed: "Bağlantı kopyalandı!"
+
+# Kategori & Etiket
+archives: "Arşiv"
+categories: "Kategoriler"
+tags: "Etiketler"
+
+# Arama
+search: "Ara"
+hint: "Bir şeyler yaz..."
+no_result: "Sonuç bulunamadı"
+untitled: "Başlıksız"
+
+# Ana Sayfa
+pin_prompt: "Sabitlendi"
+featured_categories: "Öne Çıkan Kategoriler"
+recent_posts: "Son Yazılar"
+
+# Sidebar
+about: "Hakkında"
+contact: "İletişim"
+subscribe: "Abone Ol"
+
+# Sayfa Altı
+powered: "Altyapı"
+theme: "Tema"
+
+# Hata sayfaları
+404:
+  title: "Sayfa bulunamadı"
+  description: "Üzgünüz, bu sayfa mevcut değil veya taşınmış olabilir."
+
+# Notification
+notification:
+  update_found: "Yeni bir içerik versiyonu mevcut."
+  update: "Güncelle"
+
+# Yorum alanı
+comments:
+  loading: "Yorumlar yükleniyor..."
+  load_failed: "Yorumlar yüklenemedi. Lütfen tekrar deneyin."
+
+# Diğer
+home: "Ana Sayfa"
+noie: "Üzgünüz, Internet Explorer tarayıcısı desteklenmiyor. Lütfen güncel bir tarayıcı kullanın."
+not_applicable: "Uygun Değil"
+env:
+  development: "geliştirme"
+  production: "üretim" 
