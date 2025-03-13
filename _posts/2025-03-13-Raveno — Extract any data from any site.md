@@ -8,8 +8,6 @@ image:
   alt: Raveno Raven
 ---
 
-content
-
 ## Raveno: Your All-in-One Data Extraction Solution
 
 In today's data-driven world, the ability to quickly and accurately extract information from websites is invaluable. Raveno emerges as a powerful solution, offering a robust framework for extracting any data from any site, empowering businesses and researchers alike to gain valuable insights.
