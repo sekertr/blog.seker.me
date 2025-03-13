@@ -1,6 +1,6 @@
 ---
 title: Raveno ile Web Verisi Çıkarma: Kapsamlı Bir Kılavuz
-date: 2024-02-29
+date: 2025-02-06 13:37:00 +0300
 categories: [Web Kazıma, Veri Madenciliği]
 tags: [Raveno, veri çıkarma, web kazıma, no-code, veri toplama]
 image:
