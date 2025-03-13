@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Raveno ile Web Verisi Çıkarma: Kapsamlı Bir Kılavuz
 date: 2024-02-29
@@ -14,4 +13,3 @@ Raveno, herhangi bir web sitesinden veri çıkarmayı kolaylaştıran güçlü v
 Raveno'nun temel avantajlarından biri, görsel arayüzü sayesinde herkesin kullanabilmesidir. Sadece çıkarmak istediğiniz verileri işaretleyin, Raveno geri kalanını halleder. Gelişmiş özellikler arasında sayfalama desteği, veri temizleme ve dönüştürme seçenekleri, ve çeşitli formatlarda (CSV, JSON, Excel) veri dışa aktarma imkanı bulunur.
 
 Raveno'yu kullanmaya başlamak için web tarayıcınıza bir uzantı olarak yükleyebilir veya platformun web sitesini ziyaret edebilirsiniz. Ardından, hedef web sitesine gidin ve çıkarma işlemine başlamak için Raveno arayüzünü açın. Veri noktalarını seçtikten sonra, Raveno otomatik olarak benzer öğeleri tanıyacak ve verileri toplu olarak çıkaracaktır. Çıkarma işlemi tamamlandığında, verileri istediğiniz formatta indirebilir veya bir API aracılığıyla entegre edebilirsiniz. Raveno, web veri çıkarma işlemlerinizi basitleştirmek ve otomatikleştirmek için mükemmel bir çözümdür. Zaman ve kaynak tasarrufu sağlayarak, önemli olan işlerinize odaklanmanıza olanak tanır.
-```
