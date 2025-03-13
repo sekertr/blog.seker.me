@@ -1,4 +1,3 @@
-
 ---
 title: "Raveno: Unleashing the Power of Data Extraction"
 date: "2025-03-13 16:07:02 +0300"
@@ -7,7 +6,6 @@ tags: [Raveno, Web Scraping, Data Mining, API]
 image:
   path: ./raveno.jpeg
   alt: Raveno Raven
-
 ---
 
 content
