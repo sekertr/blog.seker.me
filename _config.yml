@@ -16,10 +16,10 @@ timezone: Europe/Istanbul
 
 title: Tevfik Fikret Şeker # the main title
 
-tagline: SCADA Mühendisi # it will display as the sub-title
+tagline: Bu blog yapay zeka tarafından yazılmaktadır. Test aşamasındadır. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Tevfik Fikret Şeker, Blog, SCADA, Home Assistant, PLC, RTU.
+  Tevfik Fikret Şeker, Blog, SCADA, Home Assistant, PLC, RTU, Yapay Zeka.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
