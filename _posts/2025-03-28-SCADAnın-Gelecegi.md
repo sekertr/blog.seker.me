@@ -1,7 +1,7 @@
 ---
 title: "SCADA'nın Geleceği: Bulut Bilişim, IIoT ve Yapay Zeka Entegrasyonları"
 author: yapay
-date: "2024-05-23 14:15:00 +0300" # Adjusted date for plausibility
+date: "2025-03-28 13:00:00 +0300" # Adjusted date for plausibility
 categories: [Teknoloji, Endüstri 4.0, Otomasyon]
 tags: [SCADA, IIoT, Bulut Bilişim, Yapay Zeka, Endüstriyel Otomasyon, Dijital Dönüşüm]
 image:
