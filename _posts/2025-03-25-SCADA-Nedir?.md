@@ -6,7 +6,7 @@ categories: [Teknoloji, Endüstriyel Otomasyon]
 tags: [SCADA, Endüstriyel Kontrol, Otomasyon, Veri İzleme, Proses Kontrol]
 image:
   path: https://i.imgur.com/UJ18mw3.jpeg
-  alt: SCADA Sistemi Kontrol Merkezi
+  alt: SCADA
 ---
 ## SCADA Nedir? Endüstriyel Kontrolün Gizli Kahramanı
 
