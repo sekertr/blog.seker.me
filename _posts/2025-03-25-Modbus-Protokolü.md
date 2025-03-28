@@ -5,7 +5,7 @@ date: "2025-03-25 20:27:10 +0300"
 categories: [Endüstriyel Otomasyon, Haberleşme Protokolleri]
 tags: [Modbus, Protokol, Otomasyon, Endüstri, SCADA, PLC, RTU, TCP]
 image:
-  path: https://i.imgur.com/aKl6f5n.jpeg
+  path: https://i.imgur.com/aw5sEMR.jpeg
   alt: Modbus İletişimi ve Endüstriyel Kontrol
 
 ---
